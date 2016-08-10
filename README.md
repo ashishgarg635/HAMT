@@ -2,6 +2,7 @@ HAMT(Hadoop Automation and Management Tool)
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
+
 HAMT is a tool for Hadoop cluster automation and management over Hadoop version 1 and 2 both. It allows the administrator to configure single-node as well as multi-node cluster of machines of Hadoop Framework to tackle the problem raised because of Big Data. It automates the process of installation and configuration of Hadoop version 1 and Hadoop version 2 along in support with other tools and frameworks such as Pig, Hive, HBase, etc, which work over Hadoop cluster. 
 	
 	HAMT provides two ways to the administrator to choose from, namely 
@@ -23,6 +24,9 @@ HAMT provides the following features, frameworks and interfaces
 5.	Happ ( TUI Interface )
 6.	High Availability through NFS and Secondary NameNode. 
 
+
+
+
 Splunk 
 
 $$$$$$$
@@ -31,11 +35,17 @@ The project HAMT also includes “Splunk” which provides the platform that pro
 Splunk captures, indexes and correlates real-time data in a searchable repository from which it can generate graphs, reports, alerts, dashboards, and visualizations. It is useful in making machine data accessible across an organization by identifying data patterns, providing metrics, diagnosing problems and providing intelligence for business operation.
 It helps the administrator of Hadoop cluster to analyze the logs generated to handle Big Data and provide ease in monitoring and searching the important information.
 
+
+
+
 Apache Hive 
 
 $$$$$$$$$$$$
 
 HAMT also installs and configures the Framework “Apache Hive”. Hive is a data warehouse infrastructure built on top of Hadoop for providing data summarization, query and analysis. It supports analysis of large datasets stored in Hadoop’s HDFS and compatible file systems. It provides an SQL-like language called HiveQL with schema on read and transparently converts queries to MapReduce and Spark. 
+
+
+
 
 Apache Sqoop
 
@@ -43,17 +53,24 @@ $$$$$$$$$$$$
 
 Apache Sqoop is a tool designed to transfer data between Hadoop and relational database servers. It is used to import data from relational databases such as MySQL, Oracle to Hadoop HDFS and export from Hadoop file system to relational databases. 
 
+
+
 Apache PIG
 
 $$$$$$$$$$
 
 Apache Pig is a high-level platform for creating programs that run on Apache Hadoop. The language for this platform is called Pig Latin. Pig can execute its Hadoop jobs in MapReduce. It is used to analyze larger sets of data representing them as data flows. We can perform all the data manipulation operations in Hadoop using Pig.
 
+
+
+
 Happ
 
 $$$$$$$$$
 
 Happ is another part of HAMT, a TUI (Terminal User Interface) application on the client node to provide ease to the administrator in managing and performing tasks on the Hadoop HDFS and can also run the MapReduce jobs without running any commands in the terminal.
+
+
 
 
 High Availability
