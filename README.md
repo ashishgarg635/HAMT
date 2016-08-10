@@ -55,5 +55,7 @@ High Availability
 NameNode is a single-point of failure which stores all the metadata of the HDFS and MapReduce jobs. If this NameNode is crashed, then the data stored on the Hadoop cluster cannot be accessed as no one other than NameNode knows where data blocks are stored. So, there leaves no means to recover the data. But if we preserve the metadata, then it is possible to retrieve the data from HDFS. To handle this situation, HAMT provides two options 
 1.	Secondary NameNode
 2.	NFS
-# Secondary NameNode is a part of Hadoop framework which checkpoints the NameNode data at a particular period of time called checkpoint period. 
-# Another method is to use NFS (Network File System) so that whenever any damage is happened to the NameNode, then the metadata is still preserved and can be used to recover the data blocks stored in HDFS.
+
+** Secondary NameNode is a part of Hadoop framework which checkpoints the NameNode data at a particular period of time called checkpoint period. 
+
+** Another method is to use NFS (Network File System) so that whenever any damage is happened to the NameNode, then the metadata is still preserved and can be used to recover the data blocks stored in HDFS.
